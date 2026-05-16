@@ -4,7 +4,6 @@
 
 The dynamic spectrum (frequency × time) is read **without dedispersion**, so the dispersion sweep diagonal is preserved as a dramatic physical ridge across the printed model. Each pixel of the dynamic spectrum becomes a point on the height-map surface, extruded upward in proportion to its intensity.
 
-![Example heightmap showing dispersion sweep ridge](https://via.placeholder.com/800x300?text=Dynamic+Spectrum+→+3D+Heightmap)
 
 ---
 
