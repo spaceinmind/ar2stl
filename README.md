@@ -52,27 +52,27 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-python ar_to_stl.py <archive> [options]
+python ar2stl.py <archive> [options]
 ```
 
 ### Quick examples
 
 ```bash
 # Basic usage — all defaults
-python ar_to_stl.py burst.ar
+python ar2stl.py burst.ar
 
 # Custom physical size and smoother surface
-python ar_to_stl.py burst.ar --width 120 --depth 80 --signal-height 20 --smooth 2.0
+python ar2stl.py burst.ar --width 120 --depth 80 --signal-height 20 --smooth 2.0
 
 # Extract a pulse window, downsample, flag RFI band
-python ar_to_stl.py burst.ar \
+python ar2stl.py burst.ar \
     --time-start 42.0 --time-end 55.0 \
     -f 2 -t 4 \
     --flag-freq "1540-1560,1200-1220" \
     --noise-floor 2.0
 
 # Specify output filename
-python ar_to_stl.py frb010724/FRB010724/ar_files/6.0 -o frb010724_model.stl
+python ar2stl.py frb010724/FRB010724/ar_files/6.0 -o frb010724_model.stl
 ```
 
 ---
