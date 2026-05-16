@@ -1,4 +1,4 @@
-# ar_to_stl 🌌📡
+# ar2stl 🌌📡
 
 **Convert a PSRCHIVE pulsar/FRB archive into a 3D-printable STL heightmap.**
 
