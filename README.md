@@ -9,7 +9,7 @@ The dynamic spectrum (frequency × time) is read **without dedispersion**, so th
 
 ## Features
 
-- Reads any PSRCHIVE-compatible archive (`.ar`, `.fits`, etc.)
+- Reads any PSRCHIVE-compatible archive (`.ar`)
 - Preserves the dispersion sweep as a printable ridge — no dedispersion applied
 - Per-channel robust normalisation (median/MAD, using the quietest 50 % of samples) keeps the sweep visible without baseline inflation
 - Optional Gaussian smoothing for cleaner print surfaces
