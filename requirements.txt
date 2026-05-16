@@ -1,0 +1,10 @@
+# ar_to_stl — Python dependencies
+#
+# PSRCHIVE Python bindings are NOT listed here because they must be compiled
+# from source.  See the README for build instructions:
+#   http://psrchive.sourceforge.net/download.shtml
+#
+# All other dependencies are available from PyPI.
+
+numpy>=1.24
+scipy>=1.10
